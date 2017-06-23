@@ -38,7 +38,9 @@ get_header(); ?>
         <div class="small-12 medium-6 columns">
             <p>Bitte füllt folgendes Formular aus, um uns eure Turniererfolge zu schicken.</p>
 
-            <form class="footer-form" action="#" method="post" data-abide novalidate>
+            <form class="footer-form"
+                  action="<?php echo get_template_directory_uri(); ?>/parts/competition-results-email.php" method="post"
+                  data-abide novalidate>
 
                 <div data-abide-error class="alert callout" style="display: none;">
                     <p><i class="fi-alert"></i>Bitte überprüfe die Eingaben.</p>
@@ -109,7 +111,7 @@ get_header(); ?>
 
                 <div class="row">
                     <div class="small-12 text-right columns">
-                        <button name="senden" class="submit button" type="submit" value="Submit">Senden</button>
+                        <button name="send" class="submit button" type="submit" value="Submit">Senden</button>
                     </div>
                 </div>
             </form>
