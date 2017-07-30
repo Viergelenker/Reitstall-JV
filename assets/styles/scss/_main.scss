@@ -178,8 +178,7 @@ POSTS & CONTENT STYLES
 }
 
 .hero-caption {
-  padding: 30px;
-  min-height: 10%;
+  padding: 8px 0 8px 10%;
   min-width: 100%;
   color: #ECF0F1;
   position: absolute;
@@ -674,26 +673,13 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 .footer {
+  margin-top: 60px;
+  padding-top: 60px;
   background-color: #2C3E50;
-  text-align: center;
   font-size: 1.2rem;
-  padding: 1rem;
 }
 
-.footer .social a {
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  background-color: #33383b;
-  border-radius: 2px;
-  font-size: 1.5rem;
-  color: #fff;
-  text-align: center;
-  line-height: 2rem;
-  margin: 0 3px 0 0;
-}
-
-.footer .copywrite {
+.footer .disclaimer {
   color: #8f9296;
   font-size: 0.875rem;
   margin: 1rem 0 1rem 0;
@@ -736,6 +722,10 @@ FOOTER STYLES
   box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
 }
 
+.footer .footer-links li {
+  text-align: left;
+}
+
 .footer .footer-links a {
   list-style: none;
   font-weight: normal;
@@ -745,39 +735,23 @@ FOOTER STYLES
 
 }
 
-.footer .footer-links a::after {
-  content: "•";
-  padding: 0 0.2rem 0 0.4rem;
-}
-
-.footer .footer-links a:last-child::after {
-  content: "";
-  padding: 0 0.4rem 0 0.8rem;
-}
-
 .footer .logo {
   color: #E74C3C;
 }
 
-@media only screen and (min-width: 40.063em) {
-  .footer {
-    padding: 4rem;
-  }
+.footer .sitemap {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0 0 1rem 0;
+  font-weight: bold;
+}
 
-  .footer p {
-    text-align: left;
-  }
+.footerMenu {
+  margin-bottom: 20px;
+}
 
-  .footer .social {
-    text-align: left;
-    margin: 0;
-  }
-
-  .footer .footer-form .contact {
-    position: absolute;
-    left: -45%;
-    top: 10%;
-  }
+.copyright {
+  color: #fff;
 }
 
 /*********************
