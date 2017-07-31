@@ -14,7 +14,7 @@ get_header(); ?>
 		    <main id="main" class="small-12 medium-8 large-8 columns" role="main">
 			    
 		    	<header>
-		    		<h1 class="page-title"><?php the_archive_title();?></h1>
+		    		<h3 class="page-title"><?php the_archive_title();?></h3>
 					<?php the_archive_description('<div class="taxonomy-description">', '</div>');?>
 		    	</header>
 		

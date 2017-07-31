@@ -2,8 +2,7 @@
 // Register menus
 register_nav_menus(
 	array(
-		'main-nav' => __( 'Top Menu', 'JV' ),   // Main nav in header
-		'footer-links' => __( 'Footer Menu', 'JV' ) // Secondary nav in footer
+		'main-nav' => __( 'Top Menu', 'reitstall-jv' ),   // Main nav in header
 	)
 );
 
@@ -47,18 +46,6 @@ class Off_Canvas_Menu_Walker extends Walker_Nav_Menu {
         $output .= "\n$indent<ul class=\"vertical menu\">\n";
     }
 }
-
-// The Footer Menu
-function joints_footer_links() {
-    wp_nav_menu(array(
-    	'container' => 'false',                         // Remove nav container
-    	'menu' => __( 'Footer Links', 'JV' ),   	    // Nav name
-    	'menu_class' => 'vertical menu footer-links',      		// Adding custom nav class
-    	'theme_location' => 'footer-links',             // Where it's located in the theme
-        'depth' => 0,                                   // Limit the depth of the nav
-    	'fallback_cb' => ''  							// Fallback function
-	));
-} /* End Footer Menu */
 
 // Header Fallback Menu
 function joints_main_nav_fallback() {

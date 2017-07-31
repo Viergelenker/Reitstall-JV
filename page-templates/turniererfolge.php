@@ -18,9 +18,8 @@ get_header(); ?>
 			<?php do_action( 'foundationpress_before_content' ); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-                <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
+                <div <?php post_class() ?> id="post-<?php the_ID(); ?>"
 
-                    <h3><?php the_title(); ?></h3>
 					<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
                     <div class="entry-content">
 						<?php the_content(); ?>
