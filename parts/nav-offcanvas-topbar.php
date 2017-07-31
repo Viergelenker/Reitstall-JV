@@ -18,7 +18,7 @@
 	<div class="top-bar-right small-12 columns float-right show-for-small-only">
 		<ul class="menu" style="background-color: transparent">
 			<!-- <li><button class="menu-icon" type="button" data-toggle="off-canvas"></button></li> -->
-			<li><a data-toggle="off-canvas"><?php _e( 'Menu', 'jointswp' ); ?></a></li>
+			<li><a data-toggle="off-canvas"><?php _e( 'Menu', 'reitstall-jv' ); ?></a></li>
 		</ul>
 	</div>
 </div>

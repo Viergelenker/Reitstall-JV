@@ -9,11 +9,11 @@
 	<?php if ( is_search() ) : ?>
 		
 		<header class="article-header">
-			<h1><?php _e( 'Sorry, No Results.', 'jointswp' );?></h1>
+			<h3><?php _e( 'Sorry, No Results.', 'reitstall-jv' );?></h3>
 		</header>
 		
 		<section class="entry-content">
-			<p><?php _e( 'Try your search again.', 'jointswp' );?></p>
+			<p><?php _e( 'Try your search again.', 'reitstall-jv' );?></p>
 		</section>
 		
 		<section class="search">
@@ -21,17 +21,17 @@
 		</section> <!-- end search section -->
 		
 		<footer class="article-footer">
-			<p><?php _e( 'This is the error message in the parts/content-missing.php template.', 'jointswp' ); ?></p>
+			<p><?php _e( 'This is the error message in the parts/content-missing.php template.', 'reitstall-jv' ); ?></p>
 		</footer>
 		
 	<?php else: ?>
 	
 		<header class="article-header">
-			<h1><?php _e( 'Oops, Post Not Found!', 'jointswp' ); ?></h1>
+			<h3><?php _e( 'Oops, Post Not Found!', 'reitstall-jv' ); ?></h3>
 		</header>
 		
 		<section class="entry-content">
-			<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'jointswp' ); ?></p>
+			<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'reitstall-jv' ); ?></p>
 		</section>
 		
 		<section class="search">
@@ -39,7 +39,7 @@
 		</section> <!-- end search section -->
 		
 		<footer class="article-footer">
-		  <p><?php _e( 'This is the error message in the parts/content-missing.php template.', 'jointswp' ); ?></p>
+		  <p><?php _e( 'This is the error message in the parts/content-missing.php template.', 'reitstall-jv' ); ?></p>
 		</footer>
 			
 	<?php endif; ?>

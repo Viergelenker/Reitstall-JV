@@ -3,11 +3,21 @@
 function joints_register_sidebars() {
 	register_sidebar(array(
 		'id' => 'sidebar1',
-		'name' => __('Sidebar 1', 'jointswp'),
-		'description' => __('The first (primary) sidebar.', 'jointswp'),
+		'name' => __('Main Widget', 'jv'),
+		'description' => __('Widget Bereich auf Standardseiten', 'jv'),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="widgettitle">',
+		'after_title' => '</h4>',
+	));
+
+	register_sidebar(array(
+		'id' => 'sidebar2',
+		'name' => __('Footer widget', 'jv'),
+		'description' => __('Der Bereich innerhalb des footers', 'jv'),
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget' => '</div>',
+		'before_title' => '<h4 class="footerWidgetTitle">',
 		'after_title' => '</h4>',
 	));
 
@@ -21,8 +31,8 @@ function joints_register_sidebars() {
 
 	register_sidebar(array(
 		'id' => 'sidebar2',
-		'name' => __('Sidebar 2', 'jointswp'),
-		'description' => __('The second (secondary) sidebar.', 'jointswp'),
+		'name' => __('Sidebar 2', 'jv'),
+		'description' => __('The second (secondary) sidebar.', 'jv'),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h4 class="widgettitle">',

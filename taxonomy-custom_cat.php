@@ -18,7 +18,7 @@ get_header(); ?>
 	    <main id="main" class="small-12 medium-8 large-8 columns first" role="main">
 	
 		    <header>
-		    	<h1 class="page-title"><span><?php _e( 'Posts Categorized:', 'jointswp' ); ?></span> <?php single_cat_title(); ?></h1>
+		    	<h1 class="page-title"><span><?php _e( 'Posts Categorized:', 'reitstall-jv' ); ?></span> <?php single_cat_title(); ?></h1>
 		    </header>
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

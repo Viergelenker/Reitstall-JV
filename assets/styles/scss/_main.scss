@@ -80,7 +80,7 @@ NAVIGATION STYLES
 *********************/
 .top-bar {
   min-height: 100px;
-  background-color: white;
+  background-color: #FFF;
   font-family: 'Cinzel', serif;
   box-shadow: 0 -8px 20px #888888;
 
@@ -90,7 +90,7 @@ NAVIGATION STYLES
   }
   .top-left ul {
     padding-top: 16px;
-    background-color: white;
+    background-color: #FFF;
     font-size: xx-large;
     li a {
       color: #E74C3C;
@@ -101,10 +101,10 @@ NAVIGATION STYLES
   }
   .top-right ul {
     padding-top: 22px;
-    background-color: white;
+    background-color: #FFF;
     font-weight: 900;
     li a {
-      background-color: white;
+      background-color: #FFF;
       color: #2C3E50;
     }
     li a:hover {
@@ -114,7 +114,7 @@ NAVIGATION STYLES
 }
 
 .top-bar-right {
-  background-color: white;
+  background-color: #FFF;
 }
 
 .off-canvas-list {
@@ -138,12 +138,12 @@ NAVIGATION STYLES
 
     padding-top: 8px;
     a {
-      color: #fff;
+      color: #ECF0F1;
     }
   }
 
   .active a {
-    
+
     color: #2C3E50;
   }
 
@@ -248,7 +248,7 @@ POSTS & CONTENT STYLES
   }
 
   pre {
-    background: #eee;
+    background: #FFF;
     border: 1px solid #cecece;
     padding: 10px;
   }
@@ -257,7 +257,7 @@ POSTS & CONTENT STYLES
 
 .wp-caption {
   max-width: 100%;
-  background: #eee;
+  background: #FFF;
   padding: 5px;
 
   // Images inside wp-caption
@@ -508,7 +508,7 @@ COMMENT STYLES
       left: 10px;
       padding: 2px;
       border: 1px solid #cecece;
-      background: #fff;
+      background: #FFF;
     }
 
   }
@@ -583,19 +583,19 @@ COMMENT FORM STYLES
     input[type=url],
     textarea {
       padding: 3px 6px;
-      background: #efefef;
+      background: #FFF;
       border: 2px solid #cecece;
       line-height: 1.5em;
 
       &:focus {
-        background: #fff;
+        background: #FFF;
       }
 
       // form validation
       &:invalid {
         outline: none;
         border-color: #fbc2c4;
-        background-color: #f6e7eb;
+        background-color: #FFF;
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         -ms-box-shadow: none;
@@ -680,13 +680,12 @@ FOOTER STYLES
 }
 
 .footer .disclaimer {
-  color: #8f9296;
+  color: #ECF0F1;
   font-size: 0.875rem;
   margin: 1rem 0 1rem 0;
 }
 
 .footer .footer-form textarea, .footer .footer-form input {
-  border-radius: 3px;
   background-color: #1f2022;
   box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
   border: none;
@@ -694,21 +693,20 @@ FOOTER STYLES
   font: inherit;
   font-size: 0.875rem;
   font-weight: normal;
-  color: #d1d2d2;
+  color: #ECF0F1;
   padding: 1.3rem;
 }
 
 .footer .footer-form label {
-  color: #fff;
+  color: #ECF0F1;
   font-size: 1.2rem;
   margin: 0 0 1rem 0;
   font-weight: bold;
 }
 
 .footer .footer-form .submit {
-  border-radius: 3px;
-  background-color: #33383b;
-  color: #ffffff;
+  background-color: #2980B9;
+  color: #ECF0F1;
   border: 0;
   padding: 1rem 3.5rem;
   font-weight: bold;
@@ -717,9 +715,9 @@ FOOTER STYLES
 }
 
 .footer .footer-form .submit:hover {
-  -webkit-box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 4px 2px rgba(255, 255, 255, 0.1);
+  -moz-box-shadow: 0 0 4px 2px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 4px 2px rgba(255, 255, 255, 0.1);
 }
 
 .footer .footer-links li {
@@ -729,7 +727,7 @@ FOOTER STYLES
 .footer .footer-links a {
   list-style: none;
   font-weight: normal;
-  color: #fff;
+  color: #ECF0F1;
   margin: 0;
   background-color: transparent;
 
@@ -739,8 +737,8 @@ FOOTER STYLES
   color: #E74C3C;
 }
 
-.footer .sitemap {
-  color: #fff;
+.footer .footerWidgetTitle {
+  color: #ECF0F1;
   font-size: 1.2rem;
   margin: 0 0 1rem 0;
   font-weight: bold;
@@ -748,10 +746,11 @@ FOOTER STYLES
 
 .footerMenu {
   margin-bottom: 20px;
+  color: #ECF0F1;
 }
 
 .copyright {
-  color: #fff;
+  color: #ECF0F1;
 }
 
 /*********************

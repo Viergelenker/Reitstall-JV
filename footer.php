@@ -12,50 +12,45 @@
 
     <div class="row">
 
-        <div class="small-10 small-push-1 medium-6 float-left columns">
+        <div class="small-10 medium-6 columns">
             <form class="footer-form" action="<?php echo get_template_directory_uri(); ?>/parts/contact-email.php"
                   method="post">
-                <div class="medium-10 columns">
+                <div class="medium-10 small-offset-1 columns">
                     <label>
                         <label for="email">Kontakt:</label>
                         <input name="email" type="email" id="email" placeholder="Email Adresse"/>
                     </label>
                 </div>
-                <div class="medium-10 columns">
+                <div class="medium-10 small-offset-1 columns">
                     <label>
                         <textarea rows="5" name="message" id="message" placeholder="Nachricht"></textarea>
                     </label>
                 </div>
-                <div class="medium-10 end columns">
-                    <button name="send" class="submit" type="submit" value="Submit">Senden</button>
+                <div class="medium-10 small-offset-1 end columns">
+                    <button name="send" class="submit float-left" type="submit" value="Submit">Senden</button>
                 </div>
             </form>
         </div>
 
-        <div class="small-10 small-push-1 medium-6 end columns">
-            <div class="small-12 columns footerMenu">
-                <p class="sitemap">Seiten:</p>
-                <nav role="navigation">
-					<?php joints_footer_links(); ?>
-                </nav>
+
+        <div class="small-12 medium-6 end columns">
+            <div class="small-11 small-offset-1 columns footerMenu">
+	            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer widget') ) : ?>
+	            <?php endif; ?>
             </div>
+
+        </div>
+
+        <div class="row">
             <hr/>
-            <div class="small-12 small-centered columns">
+            <div class="small-11 small-offset-1 columns">
                 <p class="disclaimer">Bilder und Text sind Eigentum von Reitstall Räuchle.</p>
                 <p class="disclaimer">Es wird keine Haftung für Aussagen oder Verlinkungen übernommen.</p>
+                <p class="disclaimer">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?>.</p>
             </div>
         </div>
 
     </div>
-
-    <div id="inner-footer" class="row">
-
-        <div class="small-12 text-center columns">
-            <p class="source-org copyright">&copy; <?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?>.</p>
-        </div>
-
-    </div> <!-- end #inner-footer -->
-
 </footer>
 
 </div>  <!-- end .off-canvas-content -->

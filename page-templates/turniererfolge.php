@@ -13,7 +13,7 @@ get_header(); ?>
     <br/>
 
     <div class="row">
-        <div class="small-10 columns">
+        <div class="small-12 medium-7 large-8 columns">
 
 			<?php do_action( 'foundationpress_before_content' ); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -33,10 +33,9 @@ get_header(); ?>
 
 			<?php endwhile; ?>
         </div>
-    </div>
-    <div class="row">
-        <div class="small-12 medium-6 columns">
-            <p>Bitte füllt folgendes Formular aus, um uns eure Turniererfolge zu schicken.</p>
+
+        <div class="small-12 medium-5 large-4 columns">
+            <p>Bitte füllen Sie folgendes Formular aus, um uns Ihre Turniererfolge zu schicken.</p>
 
             <form class="footer-form"
                   action="<?php echo get_template_directory_uri(); ?>/parts/competition-results-email.php" method="post"
